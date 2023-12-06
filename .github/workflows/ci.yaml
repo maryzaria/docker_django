@@ -2,8 +2,7 @@ name: Автоматизация развертывания
 
 on:
   push:
-    branches:
-      - master
+    branches: [master]
 
 jobs:
   tests:
