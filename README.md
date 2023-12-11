@@ -10,5 +10,5 @@ docker build -t project_name
 Для запуска контейнера выполните команду: 
 
 ```
-docker run --name=project_test -d -p 8000:8000 project_name
+docker run -p 8000:8000 project_name
 ```
