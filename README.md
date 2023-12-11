@@ -3,12 +3,12 @@
 Для создания контейнера REST APi сервера выполните команду из директории проекта: 
 
 ```
-docker build -t any_project
+docker build -t project_name
 ```
 ## Запуск контейнера
 
 Для запуска контейнера выполните команду: 
 
 ```
-docker run --name=project_test -d -p 8000:8000 my_project
+docker run --name=project_test -d -p 8000:8000 project_name
 ```
