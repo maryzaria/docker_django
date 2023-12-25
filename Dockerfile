@@ -8,6 +8,8 @@ RUN pip install -r /src/requirements.txt
 
 COPY . /src
 
+RUN python /src/manage.py migrate
+
 EXPOSE 8000
 
 WORKDIR /src
